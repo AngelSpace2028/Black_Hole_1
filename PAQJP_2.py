@@ -16,7 +16,7 @@ from enum import Enum
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Constants
-PROGNAME = "PAQJP_1"
+PROGNAME = "PAQJP_2"
 DEFAULT_OPTION = 9
 MEM = 0x10000 << DEFAULT_OPTION
 HUFFMAN_THRESHOLD = 1024  # Bytes threshold for Huffman vs. zlib compression
